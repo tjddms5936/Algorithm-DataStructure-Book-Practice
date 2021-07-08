@@ -5,7 +5,7 @@
  Q7 : bsearch 함수와 같은 형식으로 호출할 수 있는 다음 함수를 작성하세요. 
  단, 선형 검색 알고리즘을 사용하고, 배열은 정렬되어 있지 않아도 좋습니다.  
 */
-
+// 실패한 코딩. 실행이 이상하게 됨
 void *seqsearch(const void *key, const void *base, size_t nmemb, size_t size, int(*compar)(const void *, const void *)){
 	size_t i;
 	char   *x = (char *)base;
