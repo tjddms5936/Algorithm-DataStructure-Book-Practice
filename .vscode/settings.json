@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "연습문제 3-9.C": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
