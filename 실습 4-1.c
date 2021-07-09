@@ -33,6 +33,6 @@ int Search(const IntStack *s);
 void Print(const IntStack *s);
 // 스택 종료
 void Terminate(IntStack *s);
-
+#endif
 
 
