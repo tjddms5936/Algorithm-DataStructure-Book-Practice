@@ -1,5 +1,5 @@
-#ifndef ___IntStack
-#define ___IntStack // int형 스택 intstack(헤더)
+#ifndef ___IntStack1
+#define ___IntStack1 // int형 스택 intstack(헤더)
 
 // 스택을 구현하는 구조체
 typedef struct {
