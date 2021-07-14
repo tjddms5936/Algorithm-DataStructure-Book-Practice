@@ -112,13 +112,13 @@ void recur(int n){
 	Top :
 		if(n>0){
 			Push(&stk, n); // n의 값을 푸쉬
-			n = n-2;
+			n = n-1;
 			goto Top; 
 		}
 		if(!IsEmpty(&stk)){ // 스택이 비어있지 않으면 
 			Pop(&stk, &n); // 저장했던 n을 팝. 이때 선입후출임. 
 			printf("%d\n", n);
-			n = n-1;
+			n = n-2;
 			goto Top; 
 		}
 		Terminate(&stk); // 여기까지 왔다는 것은 빈스택 -> 푸쉬 -> 팝 -> 빈스택 인 상태 
