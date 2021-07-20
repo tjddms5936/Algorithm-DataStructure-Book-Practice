@@ -34,6 +34,7 @@ void insertion(int a[], int n){
         a[j] = tmp;
     }
     print(a, n, already, i);
+
 }
 
 int main(void){
