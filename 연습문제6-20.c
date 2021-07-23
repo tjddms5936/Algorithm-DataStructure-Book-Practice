@@ -48,7 +48,7 @@ void q_sort(void *base, size_t nmemb, size_t size, int(*compar)(const void *, co
 int int_cmp(const int *a, const int *b)
 {
 	return *a < *b ? -1 : *a > *b ? 1 : 0;
-}
+}f
 
 int main(void)
 {
