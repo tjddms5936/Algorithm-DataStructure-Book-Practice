@@ -35,6 +35,6 @@ int main(void){
     else{
         printf("문자 %c는 %d번째에 있습니다.\n", ch, (idx - str)+1);
     }
-
+    
     return 0;
 }
