@@ -32,7 +32,7 @@ int bf_match(const char txt[], const char pat[])
 
 		if (txt[pt] == pat[pp]) {
 			pt++;
-			pp++;
+			pp++;S
 		}
 		else {
 			pt = pt - pp + 1;
