@@ -7,11 +7,7 @@
         "reveal": "always"
     },
     "tasks": [
-<<<<<<< HEAD
         //C++ ì»´íŒŒì¼
-=======
-        //C++ ì»´íŒŒ?¼
->>>>>>> 91d92183b13b77fedd77572fdb42e5e8b14308db
         {
             "label": "save and compile for C++",
             "command": "g++",
@@ -21,11 +17,7 @@
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": "build",
-<<<<<<< HEAD
             //ì»´íŒŒì¼ì‹œ ì—ëŸ¬ë¥¼ íŽ¸ì§‘ê¸°ì— ë°˜ì˜
-=======
-            //ì»´íŒŒ?¼?‹œ ?—?Ÿ¬ë¥? ?Ž¸ì§‘ê¸°?— ë°˜ì˜
->>>>>>> 91d92183b13b77fedd77572fdb42e5e8b14308db
             //ì°¸ê³ :   https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
             "problemMatcher": {
                 "fileLocation": [
@@ -44,11 +36,7 @@
                 }
             }
         },
-<<<<<<< HEAD
         //C ì»´íŒŒì¼
-=======
-        //C ì»´íŒŒ?¼
->>>>>>> 91d92183b13b77fedd77572fdb42e5e8b14308db
         {
             "label": "save and compile for C",
             "command": "gcc",
@@ -58,11 +46,7 @@
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "group": "build",
-<<<<<<< HEAD
             //ì»´íŒŒì¼ì‹œ ì—ëŸ¬ë¥¼ íŽ¸ì§‘ê¸°ì— ë°˜ì˜
-=======
-            //ì»´íŒŒ?¼?‹œ ?—?Ÿ¬ë¥? ?Ž¸ì§‘ê¸°?— ë°˜ì˜
->>>>>>> 91d92183b13b77fedd77572fdb42e5e8b14308db
             //ì°¸ê³ :   https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
             "problemMatcher": {
                 "fileLocation": [
@@ -81,11 +65,7 @@
                 }
             }
         },
-<<<<<<< HEAD
         // // ë°”ì´ë„ˆë¦¬ ì‹¤í–‰(Windows)
-=======
-        // // ë°”ì´?„ˆë¦? ?‹¤?–‰(Windows)
->>>>>>> 91d92183b13b77fedd77572fdb42e5e8b14308db
         {
             "label": "execute",
             "command": "cmd",
